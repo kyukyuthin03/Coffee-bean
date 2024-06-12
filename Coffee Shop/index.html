@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icon Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/query.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img
+          class="logo-img"
+          src="./img/hero-img/Coffee-bean.png"
+          alt="Coffee Bean"
+        />
+        <h1 class="logo-text">Coffee</h1>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#home" class="main-nav-link">Home</a></li>
+          <li><a href="#coffee" class="main-nav-link">Coffee</a></li>
+          <li><a href="#bakery" class="main-nav-link">Bakery</a></li>
+          <li><a href="#shop" class="main-nav-link">Shop</a></li>
+          <li><a href="#about" class="main-nav-link">About</a></li>
+          <li><a href="#" class="main-nav-link btn-cta">Login</a></li>
+        </ul>
+      </nav>
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+    </header>
+
+    <main>
+      <section class="section-home" id="home">
+        <div class="home">
+          <!-- <img src="/img/hero-img/background-cover.jpg" alt="Making Coffee" /> -->
+          <div class="home-text">
+            <h2 class="welcome-text">Welcome!</h2>
+            <h1 class="primary-text">
+              We serve the richest coffee <br />
+              in the city!
+            </h1>
+            <a href="#" class="main-nav-link btn-cta order-btn">Learn more ↓</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-icon">
+        <div class="container icons">
+          <img
+            class="cup-icon"
+            src="./icons-svg/hot-coffee-svgrepo-com.svg"
+            alt="Hot coffee cup"
+          />
+          <p class="icon-title">Hot Coffee</p>
+        </div>
+        <div class="icons">
+          <img
+            class="cup-icon"
+            src="./icons-svg/coffee-svgrepo-com.svg"
+            alt="coffee cup with pipe"
+          />
+          <p class="icon-title">Ice coffee</p>
+        </div>
+        <div class="icons">
+          <img
+            class="cup-icon"
+            src="./icons-svg/coffee-cup-svgrepo-com.svg"
+            alt="cup coffee"
+          />
+          <p class="icon-title">Cup coffee <br />(Ice/Hot)</p>
+        </div>
+        <div class="icons">
+          <img
+            class="cup-icon"
+            src="./icons-svg/piece-of-cake-dessert-svgrepo-com.svg"
+            alt="cake dessert food"
+          />
+          <p class="icon-title">Cake Dessert</p>
+        </div>
+      </section>
+
+      <section class="section-menu">
+        <!-- Coffee Menu -->
+        <div class="container menu-box" id="coffee">
+          <h2 class="menu-title">Special Coffee Menu</h2>
+          <div class="menu-img-box">
+            <div class="menu-item">
+              <img
+                class="menu-img"
+                src="./img/menu-imgs/Yummy☕.jpg"
+                alt="Chocolate latte"
+              />
+              <div class="menu-hero">
+                <h3 class="menu-heading">Chocolate Latte</h3>
+                <div class="menu-pricing">
+                  <p class="price">Price- 40 THB</p>
+                  <a href="#" class="btn-cta order-btn order-btn-sm"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-img"
+                src="./img/menu-imgs/Dalgona-coffee.jpg"
+                alt="Mocha"
+              />
+              <div class="menu-hero">
+                <h3 class="menu-heading">Dalgona Coffee</h3>
+                <div class="menu-pricing">
+                  <p class="price">Price- 45 THB</p>
+                  <a href="#" class="btn-cta order-btn order-btn-sm"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-img"
+                src="./img/menu-imgs/lavender-cappuccino.jpg"
+                alt="Oat milk latte"
+              />
+              <div class="menu-hero">
+                <h3 class="menu-heading">Lavender Cappuccino</h3>
+                <div class="menu-pricing">
+                  <p class="price">Price- 50 THB</p>
+                  <a href="#" class="btn-cta order-btn order-btn-sm"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-img"
+                src="./img/menu-imgs/Strawberry-Iced-Latte.jpg"
+                alt="Strawberry-Iced-Latte"
+              />
+              <div class="menu-hero">
+                <h3 class="menu-heading">Strawberry Iced Latte</h3>
+                <div class="menu-pricing">
+                  <p class="price">Price- 60 THB</p>
+                  <a href="#" class="btn-cta order-btn order-btn-sm"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container all-recipes">
+            <a href="#" class="link">See all recipes &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Dessert Menu -->
+        <div class="container menu-box" id="bakery">
+          <h2 class="menu-title">Special Cake Dessert Menu</h2>
+          <div class="menu-img-box">
+            <div class="menu-item">
+              <img
+                class="menu-img"
+                src="./img/menu-imgs/Blueberry-Cheesecake.jpg"
+                alt="Blueberry-Cheesecake"
+              />
+              <div class="menu-hero">
+                <h3 class="menu-heading">Blueberry Cheese Cake</h3>
+                <div class="menu-pricing">
+                  <p class="price">Price- 40 THB</p>
+                  <a href="#" class="btn-cta order-btn order-btn-sm"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-img"
+                src="./img/menu-imgs/Chocolate-Puddingcake.jpg"
+                alt="Chocolate-Puddingcake"
+              />
+              <div class="menu-hero">
+                <h3 class="menu-heading">Chocolate Pudding Cake</h3>
+                <div class="menu-pricing">
+                  <p class="price">Price- 35 THB</p>
+                  <a href="#" class="btn-cta order-btn order-btn-sm"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-img"
+                src="./img/menu-imgs/Karak-cheesecake.jpg"
+                alt="Karak-cheesecake"
+              />
+              <div class="menu-hero">
+                <h3 class="menu-heading">Karak Cheese Cake</h3>
+                <div class="menu-pricing">
+                  <p class="price">Price- 35 THB</p>
+                  <a href="#" class="btn-cta order-btn order-btn-sm"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <img
+                class="menu-img"
+                src="./img/menu-imgs/Strawberry-creamy-cake.jpg"
+                alt="Strawberry-creamy-cake"
+              />
+              <div class="menu-hero">
+                <h3 class="menu-heading">Strawberry Creamy Cake</h3>
+                <div class="menu-pricing">
+                  <p class="price">Price- 40 THB</p>
+                  <a href="#" class="btn-cta order-btn order-btn-sm"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container all-recipes">
+            <a href="#" class="link">See all recipes &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-review" id="shop">
+        <div class="container">
+          <div class="review-title">
+            <img
+              class="review-img"
+              src="./img/hero-img/coffee-beans-with-ground.png"
+              alt="coffee-beans-with-ground"
+            />
+            <h2 class="checkout">Our Happy Customers</h2>
+            <img
+              class="review-img"
+              src="./img/hero-img/coffee-beans-right.jpg"
+              alt="coffee-beans-with-ground"
+            />
+          </div>
+          <div class="customers">
+            <div class="customer-review">
+              <div class="customer">
+                <img
+                  class="customer-img"
+                  src="./img/customer-img/ben.jpg"
+                  alt="Customer Alex R"
+                />
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <h1 class="customer-name">Alex R</h1>
+              <p class="customer-words">
+                I absolutely love this coffee shop! The atmosphere is cozy and
+                inviting, perfect for relaxing with a book or catching up with
+                friends. The baristas are friendly and always make my favorite
+                latte just right. Plus, the pastries are to die for! Highly
+                recommend the almond croissant. This place has become my go-to
+                spot in town.
+              </p>
+            </div>
+
+            <div class="customer-review">
+              <div class="customer">
+                <img
+                  class="customer-img"
+                  src="./img/customer-img/customer-1.jpg"
+                  alt="Customer Emma J"
+                />
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <h1 class="customer-name">Emma J</h1>
+              <p class="customer-words">
+                Great coffee and a charming ambiance. The espresso is top-notch,
+                and I appreciate the variety of milk alternatives they offer.
+                The only reason I’m not giving five stars is that it can get
+                pretty crowded during peak hours, making it hard to find a seat.
+                However, the quality of the coffee and the service more than
+                make up for it. Definitely worth a visit!
+              </p>
+            </div>
+
+            <div class="customer-review">
+              <div class="customer">
+                <img
+                  class="customer-img"
+                  src="./img/customer-img/customer-2.jpg"
+                  alt="Customer James M"
+                />
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <h1 class="customer-name">James M</h1>
+              <p class="customer-words">
+                This coffee shop is a gem! The decor is modern yet comfortable,
+                and the staff is always welcoming and knowledgeable about their
+                beans. I tried the seasonal pumpkin spice latte, and it was the
+                best I’ve ever had – not too sweet, just perfect. I also love
+                that they support local artists by displaying their work on the
+                walls. It’s a wonderful community hub and my favorite place to
+                unwind.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-subscribe" id="about">
+        <div class="subscribe">
+          <img
+            class="coffee-hero top-left"
+            src="./img/hero-img/coffee-hero-left.png"
+            alt="coffee beans"
+          />
+          <div class="subscribe-title">
+            <h2 class="subscribe-heading">Join in and Get 15% Off!</h2>
+            <p class="subscribe-text">
+              Subscribe to our restaurant and get 15% off coupon code!
+            </p>
+            <form name="subscribe">
+              <div class="subscribe-form">
+                <input
+                  class="cta-form"
+                  type="email"
+                  id="email"
+                  placeholder="me@gmail.com"
+                  name="email"
+                  required
+                />
+                <a href="#" class="btn-cta subscribe-btn">Subscribe</a>
+              </div>
+            </form>
+          </div>
+          <img
+            class="coffee-hero bottom-right"
+            src="./img/hero-img/coffee-hero-right.png"
+            alt="coffee beans"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid--footer">
+        <div class="logo-col">
+          <div class="logo">
+            <img
+              class="logo-img"
+              src="./img/hero-img/Coffee-bean.png"
+              alt="Coffee Bean"
+            />
+            <h1 class="logo-text">Coffee</h1>
+          </div>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@coffeebean.com"
+                >hello@coffeebean.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Coffee</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="script.js"></script>
+</html>
