@@ -105,7 +105,7 @@ body {
 
 /* Home Section */
 .home {
-  background-image: url(/img/hero-img/background-cover.jpg);
+  background-image: url(../img/hero-img/coffee-cup-heart-steam.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -120,7 +120,7 @@ body {
 }
 .home-text {
   margin-left: 12.8rem;
-  color: #38220f;
+  color: #fff;
 }
 .welcome-text {
   font-size: 3.6rem;
